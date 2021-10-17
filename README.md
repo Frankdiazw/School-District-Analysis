@@ -2,7 +2,7 @@
 
 ## Overview of the school district analysis
 In this analysis, the main goal is to standardize all test data for analysis, reporting, and presentation to provide insight into performance patterns and trends. All of this to guide the school board in adjusting school budgets. During the analysis it will be possible to observe data frames with the student's name, math and reading scores, along with the allocated budget; all this calculated with the pandas library and NumPy library to guarantee a better analysis towards the school board.
-However, for this challenge, it is believed that there was academic dishonesty in the "students_complete.csv" file by Thomas High School in the ninth grade. To verify this, the results for Reading and Math will be changed to "NaN" and the analysis will be performed again to analyze the impact of the scores.
+However, for this challenge, it is believed that there was academic dishonesty in the "students_complete.csv" file by Thomas High School in the ninth grade. To verify this, the results for Reading and Math will be changed to "NaN" and the analysis will be performed again to analyze the impact of the "corrupted" scores.
 
 ## Results
 For this analysis, the student had to carry out the previous work called "PyCity Schools" to begin to carry out the challenge of this module.
@@ -49,6 +49,24 @@ For this analysis, the student had to carry out the previous work called "PyCity
 
 - By replacing the math and reading scores of ninth grade students, Thomas Middle School's performance relative to the other schools was affected. This is because at the time of replacing the grades with "NaN", the number has become smaller, increasing the percentage of passing mathematics and the percentage of passing reading and overall.
 
-- Yes, replacing ninth grade scores affects the following: math and reading scores by grade when I calculated math and reading scores by grade, all grades got results, but after replacing ninth grade with NaN, I got (scores of math and reading) for the ninth grade is NaN but all other grades have the same result. School Spending Scores: Replacing the ninth grade scores does not affect the school spending scores. Medium and large. Due to the change in Thomas High School's 9th grade scores with nan. Overall percentage of mid-size schools scores decreased. Small and large school scores are equal. Scores by School Type Replacing 9th Grade Scores Affects Scores Also in the type of school, I replaced the 9th grade scores from THomas High School and Thomas High School is self-contained, so in the type of charter school, the overall percentage is down. but district-type schools have no effect. 
+- Replacing ninth grade scores affects the following: 
+- **Math and reading scores by grade**, when math and reading scores by grade were calculated, all grades got results, but after replacing ninth grade with NaN, they got (math and reading scores) for the ninth grade equal NaN, but all other grades had the same result.
+- **School Spending Scores**: Replacing ninth grade scores did not affect school spending scores.
+- **School size**. Due to the change in Thomas High School's 9th grade scores for "NaN". The overall percentage of grades for middle schools decreased. Small and large school scores remained the same.
+- **Scores by type school type**, Replacing the ninth grade scores affected the scores as in the type of school, the ninth grade scores from Thomas High School were replaced, since Thomas High School is autonomous, the percentage overall decreased. However, the district-type school had no effect.
 
 ## Summary
+Changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs are presented below:
+
+- Changes to the updated school district analysis after the ninth grade reading and math scores at Thomas Middle School have been superseded by NaN.
+
+- By replacing the grades of Thomas High School ninth graders with "NaN," the number of passing math students changed.
+
+- Due to the change in the number of students passing math, the percentage of students passing math at Thomas High School also changed.
+
+- Likewise, by replacing the grades of Thomas High School's ninth graders with "NaN," the number of approved reading students changed. Due to the change in the number of passing students in reading, the percentage of passing students in math at Thomas High School also changed.
+
+- When math and reading scores were calculated by grade. All grades had results, but after replacing the 9th grade with NaN for Thomas High School, the math and reading scores for the 9th grade were determined to be equal to "NaN", but all other grades had the same result as the previous analysis.
+
+- When the passing percentage in math and reading was calculated, the percentage was affected due to the change in grades of the ninth graders by "NaN."
+
