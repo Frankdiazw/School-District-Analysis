@@ -1,20 +1,20 @@
-# School District Analysis
+# School District Analysis :school:
 
-## Overview of the school district analysis
+## Overview of the school district analysis :100::mag:
 In this analysis, the main goal is to standardize all test data for analysis, reporting, and presentation to provide insight into performance patterns and trends. All of this to guide the school board in adjusting school budgets. During the analysis it will be possible to observe data frames with the student's name, math and reading scores, along with the allocated budget; all this calculated with the pandas library and NumPy library to guarantee a better analysis towards the school board.
 However, for this challenge, it is believed that there was academic dishonesty in the "students_complete.csv" file by Thomas High School in the ninth grade. To verify this, the results for Reading and Math will be changed to "NaN" and the analysis will be performed again to analyze the impact of the "corrupted" scores.
 
-## Results
+## Results :books:
 For this analysis, the student had to carry out the previous work called "PyCity Schools" to begin to carry out the challenge of this module.
 
-### Deliverable 1: Replacing 9th Grade Math and Reading Scores:
+### Deliverable 1: Replacing 9th Grade Math and Reading Scores: :notebook:
 - For this deliverable, the Pandas loc method with conditional statements and logical and comparison operators was used, 9th grade reading and math scores were selected for Thomas High School. The Pandas NumPy module was then used to change the reading and math scores to NaN. The outcomes are as follows:
 
 ![](https://github.com/Frankdiazw/School-District-Analysis/blob/main/Resources/Deliverable%201.png)
 
 - Figure 1. DataFrame with reading and math scores of ninth graders in Thomas High school replaced with NaNs. 
 
-### Deliverable 2: Repeat the School District Analysis
+### Deliverable 2: Repeat the School District Analysis :clipboard:
 - Now for this deliverable, the district summary was updated first. For this, the total student count was recalculated by subtracting the number of ninth grade students at Thomas High School from the total student count, then the math and reading passing rates were recalculated, and the overall passing rate. with the total student count recalculated. The updated DataFrame resulted as follows:
 
 ![](https://github.com/Frankdiazw/School-District-Analysis/blob/main/Resources/Deliverable%202.1.png)
@@ -55,7 +55,7 @@ For this analysis, the student had to carry out the previous work called "PyCity
 - **School size**. Due to the change in Thomas High School's 9th grade scores for "NaN". The overall percentage of grades for middle schools decreased. Small and large school scores remained the same.
 - **Scores by type school type**, Replacing the ninth grade scores affected the scores as in the type of school, the ninth grade scores from Thomas High School were replaced, since Thomas High School is autonomous, the percentage overall decreased. However, the district-type school had no effect.
 
-## Summary
+## Summary :dart:
 Changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs are presented below:
 
 - Changes to the updated school district analysis after the ninth grade reading and math scores at Thomas Middle School have been superseded by NaN.
